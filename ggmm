@@ -1,8 +1,9 @@
+
 gg.alert("Guest Account ျဖင္​့စမ္​းသပ္​ရန္​ အၾကံျပဳပါသည္​")
 local t = os.date("*t")
 if not (t.month == 2 and t.day == 10) then 
-os.remove("/storage/emulated/0/Android/obb/com.tencent.ig/apk.text")
-os.remove("/storage/emulated/0/Android/obb/com.vng.pubgmobile/apk.text")
+os.remove("/storage/emulated/0/antiban/HOST.txt")
+os.remove("/storage/emulated/0/antiban/HOST.txt")
 gg.alert("အခ်ိန္​ျပည္​့ပါၿပီ")
 gg.alert("ယခု Script မွာ ​10.2.2019 တစ္​ရက္​အတြက္​သာ ျဖစ္​ၿပီး ဖုန္​း Version ျဖင္​့အဆင္​​ေျပပါက Gameguardian Offical Admin မ်ားထံသို႔ ဆက္​သြယ္​၀ယ္​ယူႏိုင္​ပါသည္​ ")
 os.exit()
